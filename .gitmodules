@@ -1,0 +1,6 @@
+[submodule "submodules/Limes-x"]
+	path = submodules/Limes-x
+	url = git@github.com:Tony-xy-Liu/Limes-x.git
+[submodule "submodules/Limes-compute-modules"]
+	path = submodules/Limes-compute-modules
+	url = git@github.com:Tony-xy-Liu/Limes-compute-modules.git
