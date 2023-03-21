@@ -38,8 +38,7 @@ params = Params(
 x = wf.Run(
     workspace=workspace,
     targets=targets, given=given,
-    executor=lx.CloudExecutor(cloud_procedure=slurm, tmp_dir_name="SLURM_TMPDIR"),
-    # executor=lx.CloudExecutor(zipped_inputs=Path(os.path.realpath("./cache/zipped/")), execute_procedure=slurm),
+    executor=lx.HpcExecutor(hpc_procedure=slurm, tmp_dir_name="SLURM_TMPDIR"),
     # executor=lx.Executor(),
     params=params,
     _catch_errors = False,

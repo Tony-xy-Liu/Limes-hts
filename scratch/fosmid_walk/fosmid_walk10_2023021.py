@@ -17,6 +17,7 @@ sample_names = ['10k_1', '10k_2']
 # data_path = 'S5'
 data_path = './cache'
 final_output = [['Sample', 'Cluster', 'Size', 'Sequence', 'Reverse Complement']]
+fasta_name = 'pcc1fos_kat'
 fasta_name = 'pCC1fos'
 
 # Indexing vector backbone
